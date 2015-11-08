@@ -1,0 +1,104 @@
+body {
+	font-family: Bitter;
+	background: #2EB9B4;
+	font-size: 14.5px ;
+	font-weight: 320;
+	border: 1.4px solid black;
+	border-radius: 8px;
+	border-style: double;
+	text-align: center;
+}
+
+h1 {
+	font-family: Oxygen;
+	font-size: 2.2em;
+	text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.0em;
+}
+
+p {
+	text-align: center;
+}
+
+.feel {
+	text-decoration: none;
+	font-size: 1.6em;
+	text-align: center;
+	padding: 9px;
+}
+
+.title {
+	padding: 0px 10px 0px 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.links {
+	padding: 0px 20px 2px 10px;
+	margin-top: 5px;
+	font-size: 1.0em;
+}
+
+.back_to {
+	color: purple;
+	padding: 0px 3px 5px 5px;
+	font-size: 0.9em;
+}
+
+.edit_link {
+	color: purple;
+	padding: 0px 3px 5px 5px;
+	font-size: 0.9em;
+}
+
+.delete_link {
+	color: purple;
+	padding: 0px 3px 5px 5px;
+	font-size: 0.9em;
+}
+
+.new_blog {
+	font-size: 1.3em;
+	color: #F8F8F8;
+	padding-right: 0px;
+	padding-left: 5px;
+	margin: 0px 5px 0px 5px;
+}
+
+.feel_title {
+	font-size: 0.7em;
+}
+
+.feel_body {
+	font-size: 0.7em;
+}
+
+.navbar-link {
+	color: #F8F8F8
+}
+
+.edit {
+	color: #F8F8F8;
+	text-decoration: none;
+}
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */

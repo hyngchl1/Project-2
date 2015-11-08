@@ -1,0 +1,12 @@
+<h1 class=title>All Blogs</h1>
+
+<div id="Blogs">
+	<% @blogs.each do |blog| %>
+	   <div class="links">
+	   	  <%= link_to blog.title, blog_path(blog) %>
+	   </div>
+	<% end %>
+ </div>
+
+
+<%= link_to "Create a New Blog!", new_blog_path, class: "new_blog" %>
